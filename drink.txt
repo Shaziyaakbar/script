@@ -1,0 +1,30 @@
+$ vi drink.sh
+$ cat drink.sh
+#!/bin/bash
+select DRINK in tea cofee water juice apple all none
+do
+case $DRINK in
+tea|cofee|water|all)
+echo "Go to canteen"
+;;
+juice|apple)
+echo"Available at home"
+;;
+none)
+break
+;;
+*) echo "ERROR: Invalid selection"
+;;
+esac
+done
+
+$ chmod u+x drink.sh
+$ ./drink.sh
+1) tea
+2) cofee
+3) water
+4) juice
+5) apple
+6) all
+7) none
+#? 
