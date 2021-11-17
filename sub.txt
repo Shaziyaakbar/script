@@ -1,0 +1,9 @@
+$ vi sub.sh
+$ cat sub.sh
+#!/bin/bash
+a=10
+echo -e "Value of a is $a \n"
+
+$ chmod u+x sub.sh
+$ ./sub.sh
+Value of a is 10 
