@@ -1,0 +1,9 @@
+$ vi back.sh
+$ cat back.sh
+#!/bin/bash
+val=`expr 2 + 2`
+echo "Total value : $val"
+
+$ chmod u+x back.sh
+$ ./back.sh
+Total value : 4
