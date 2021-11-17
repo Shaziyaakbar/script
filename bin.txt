@@ -1,0 +1,22 @@
+$ vi bin.sh
+$ cat bin.sh
+#!/bin/bash
+a=0
+while [ $a -lt 10 ]
+do
+echo $a
+if [ $a -eq 5 ]
+then
+break
+fi
+a=`expr $a + 1`
+done
+
+$ chmod u+x bin.sh
+$ ./bin.sh
+0
+1
+2
+3
+4
+5
