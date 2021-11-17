@@ -1,0 +1,9 @@
+$ vi bat.sh
+$ cat bat.sh
+#!/bin/bash
+echo hello; Word
+
+$ chmod u+x bat.sh
+$ ./bat.sh
+hello
+./bat.sh: line 2: Word: command not found
