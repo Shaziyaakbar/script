@@ -1,0 +1,15 @@
+ vi zara.sh
+$ cat zara.sh
+#!/bin/bash
+# Author : Zara Ali
+# Copyright (c) Tutorialspoint.com
+# Script follows here:
+echo "What is your name?"
+read PERSON
+echo "Hello, $PERSON"
+
+$ chmod u+x zara.sh
+$ ./zara.sh
+What is your name?
+shaziya
+Hello, shaziy
